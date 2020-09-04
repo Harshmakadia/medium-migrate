@@ -1,0 +1,35 @@
+{
+  "name": "MakadiaHarsh-blog",
+  "private": true,
+  "description": "",
+  "version": "0.1.0",
+  "author": "Harsh Makadia <harsh.makadia@marutitech.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshmakadia/medium-migrate.git"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.13",
+    "gatsby-theme-medium-to-own-blog": "^0.2.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
+    "wait-for-netlify-preview": "^1.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "medium",
+    "blog"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "import-medium-article": "npx --package=medium-to-own-blog parse-medium-article"
+  }
+}
