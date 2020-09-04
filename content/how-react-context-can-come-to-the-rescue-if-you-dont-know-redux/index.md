@@ -67,10 +67,12 @@ The provider provides the values in all the components within the application th
 
 Providing Context
 
+```
 As shown above, this is how the context is passed. However, you can render any components within the   
-**_<ShopContext.Provider></ShopContext.Provider>_**
+<ShopContext.Provider></ShopContext.Provider>
+```
 
-> Whatever child component is wrapped inside the **ShopContext** will be able to access the context object.
+> Whatever child component is wrapped inside the ShopContext will be able to access the context object.
 
 Now that we have supplied the values, it’s time to access them with the consumer.
 
