@@ -11,7 +11,7 @@ module.exports = {
   author: 'Harsh Makadia',
   githubUrl: 'https://github.com/Harshmakadia/medium-migrate',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'harsh-blogs.netlify.app',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'MakadiaHarsh',
